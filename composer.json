@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/php-view":"~2.2"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"Models\\":"src/models/",
+    		"Actions\\":"src/actions/",
+    		"Tests\\":"tests/"
+    	}
+    }
+}
